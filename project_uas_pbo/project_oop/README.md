@@ -10,8 +10,7 @@ Aplikasi manajemen reservasi hotel berbasis **CLI (Command Line Interface)** yan
 |------------------|-------------------------------------------|
 | **Nama**         | Zaky Ahmad Alkam Mushoffa                 |
 | **NIM**          | 251240001666                              |
-| **Mata Kuliah**  | Pemrograman Berorientasi Objek        
-|
+| **Mata Kuliah**  | Pemrograman Berorientasi Objek            |
 | **Semester**     | 2                                         |
 
 ---
@@ -57,7 +56,22 @@ Program memiliki menu utama sebagai berikut:
 | **Custom Exception**            | `ReservasiException`, `HargaTidakValidException`         |
 | **Async / Await**               | Simulasi proses reservasi & simpan data                  |
 
-project_oop/ │ ├── bin/ │ └── main.dart ← Entry point program │ ├── lib/ │ ├── models/ │ │ ├── kamar.dart ← Abstract class induk │ │ ├── kamar_standard.dart ← Subclass Kamar Standard │ │ └── kamar_vip.dart ← Subclass Kamar VIP │ │ │ ├── controllers/ │ │ └── hotel_manager.dart ← Controller pengelola data │ │ │ └── exceptions/ │ └── reservasi_exception.dart ← Custom exception │ ├── pubspec.yaml ← Konfigurasi project └── README.md ← Dokumentasi project
+```
+project_oop/
+├── bin/
+│   └── main.dart
+├── lib/
+│   ├── models/
+│   │   ├── kamar.dart
+│   │   ├── kamar_standard.dart
+│   │   └── kamar_vip.dart
+│   ├── controllers/
+│   │   └── hotel_manager.dart
+│   └── exceptions/
+│       └── reservasi_exception.dart
+├── pubspec.yaml
+└── README.md
+```
 
 ## Cara Menjalankan Program
 
