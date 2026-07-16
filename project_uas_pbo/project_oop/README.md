@@ -57,30 +57,7 @@ Program memiliki menu utama sebagai berikut:
 | **Custom Exception**            | `ReservasiException`, `HargaTidakValidException`         |
 | **Async / Await**               | Simulasi proses reservasi & simpan data                  |
 
----
-
-##  Struktur Folder
-
-project_oop/
-│
-├── bin/
-│ └── main.dart ← Entry point program
-│
-├── lib/
-│ ├── models/
-│ │ ├── kamar.dart ← Abstract class induk
-│ │ ├── kamar_standard.dart ← Subclass Kamar Standard
-│ │ └── kamar_vip.dart ← Subclass Kamar VIP
-│ │
-│ ├── controllers/
-│ │ └── hotel_manager.dart ← Controller pengelola data
-│ │
-│ └── exceptions/
-│ └── reservasi_exception.dart ← Custom exception
-│
-├── pubspec.yaml ← Konfigurasi project
-└── README.md ← Dokumentasi project
-
+project_oop/ │ ├── bin/ │ └── main.dart ← Entry point program │ ├── lib/ │ ├── models/ │ │ ├── kamar.dart ← Abstract class induk │ │ ├── kamar_standard.dart ← Subclass Kamar Standard │ │ └── kamar_vip.dart ← Subclass Kamar VIP │ │ │ ├── controllers/ │ │ └── hotel_manager.dart ← Controller pengelola data │ │ │ └── exceptions/ │ └── reservasi_exception.dart ← Custom exception │ ├── pubspec.yaml ← Konfigurasi project └── README.md ← Dokumentasi project
 
 ## Cara Menjalankan Program
 
